@@ -1,0 +1,80 @@
+/* Index */
+
+/*
+  #Globals html
+  #Classes
+  #Layout
+  #Modules 
+*/
+
+/* #Globals html
+================================================= */
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+  font-family: Arial, Verdana, sans-serif;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  font-size: 16px;
+  font-size: 1.6rem;
+}
+
+/* #Classes
+================================================= */
+
+/*titles*/
+.title {
+  font-family: Georgia, 'Times New Roman', serif;
+  color: #333;
+}
+.title-lighter {
+  color: #777;
+}
+.subtitle {
+  
+}
+
+.summary {}
+.read-more {}
+
+/*buttons*/
+.button {
+  background: #f76300;
+  border-radius: 5px;
+  border: 0;
+  color: #fff;
+  display: inline-block;
+  font-size: 12px;
+  font-size: 1.2rem;
+  line-height: 1.2;
+  padding: 5px 10px;
+  text-decoration: none;
+}
+.button-large {
+  font-size: 16px;
+  font-size: 1.6rem;
+  font-weight: bold;
+  padding: 20px 35px;
+}
+.button-gray {
+  background-color: #555;
+}
+.button-red {
+  background-color: red;
+}
+
+/* #Layout
+================================================= */
+
+/* #Modules 
+================================================= */
+.block {
+  background: #efefef;
+  padding: 5%;
+  margin: 5%;
+}
